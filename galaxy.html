@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TSL Training | Galaxy</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha256-sHwgyDk4CGNYom267UJX364ewnY4Bh55d53pxP5WDug= sha512-mkkeSf+MM3dyMWg3k9hcAttl7IVHe2BA1o/5xKLl4kBaP0bih7Mzz/DBy4y6cNZCHtE2tPgYBYH/KtEjOQYKxA==" crossorigin="anonymous">
+
+    <!--  Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+</head>
+<body style="padding-top:52px;">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TSLtraining</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Upcoming Courses</a></li>
+        <li><a href="badges.html">Badges</a></li>
+        <li><a href="slurm.html">Cluster</a></li>
+        <li class="active"><a href="galaxy.html">Galaxy</a></li>
+        <li><a href="tools.html">Tools</a></li> <!-- list of tools -->
+        <li><a href="methods.html">Methods</a></li> <!-- SNP, RNAseq, Assembly, CandiSNP etc -->
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<div class="container">
+  <h1> Galaxy </h1>
+  <h3>Genome Assemblies R’ Us</h3>
+  <p>Assembling a genome from short-reads is actually quite a difficult thing. But it is tractable and you
+      can get an awful lot of information from the draft assemblies that result. This little walkthrough of
+      the basic technique, originally written for the TSL EMBO Practical in 2012, should give a
+      good idea of the work that goes into it. You should be able to follow along in Galaxy on the TSL site.</p>
+
+      <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/assembly.pdf">Guide to Assembly</a></h5>
+      <p></p>
+      <hr/>
+      <h3>Effector mining</h3>
+      <p>So, you’ve got a genome sequence. But this is Plant-Microbe interactions? Where the devil are those
+          blasted effectors? Which is the one that makes my organism pathogenic?</p>
+          <p>Hopefully this little technique introduction will help you get an idea of what sort of genomic
+              analyses you can use to find the effectors in a fresh, unsullied genome assembly.</p>
+
+        <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/mining_for_effectors.pdf">Mining Sequence Data for Effectors</a></h5>
+    <hr/>
+    <h3>SNP Finding</h3>
+    <p>Single-nucleotide polymorphisms (SNPs) are variations in nucleotide composition at homologous sites of different species.
+        They may lead to change of function or expression of a gene through the introduction of premature stop codons, different protein folds or a change in gene expression. SNPs
+        may be linked to a gene for a given trait, for example the resistance to a pathogen.</p>
+    <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/snp_detection.pptx">SNP detection presentation</a></h5>
+    <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/snp_finding.pdf">SNP detection tutorial</a></h5>
+    <hr/>
+    <h3>RNA-seq</h3>
+    <p>RNA-seq is a method used to sequence the transcribed genes in a given organism. The RNA of an organism is sequenced
+         and the reads are then mapped to a reference genome. The number of genes that map to a given gene are a value of it’s expression
+         – the more reads that map, the higher the gene is expressed.</p>
+    <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/Galaxy_rnaseq.pptx">RNA-seq presentation</a></h5>
+    <h5><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2012/10/rnaSeq_tutorial.pdf">RNA-seq tutorial</a></h5>
+    <h4>Data for offsite users</h4>
+    <p><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2015/02/contigs.fa_.zip">contigs.fa</a></p>
+    <p><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2015/02/post_infection_left_qc.fastqsanger.zip">post_infection_left_qc.fastqsanger</a></p>
+    <p><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2015/02/post_infection_right_qc.fastqsanger.zip">post_infection_right_qc.fastqsanger</a></p>
+    <p><a href="http://tsltraining.tsl.ac.uk/wp-content/uploads/2015/02/Trinity.zip">Trinity</a></p>
+    <hr/>
+  <footer>
+    <p>&copy; Team MacLean 2015</p>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+  </footer>
+</div> <!-- /container -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
