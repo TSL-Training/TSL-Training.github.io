@@ -3,3 +3,26 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
 }
+
+.footer_nav ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: right;
+}
+.footer_nav ul li { display: inline !important;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.footer_nav ul li a{
+    color: #606c71;
+}
+.footer_nav ul li a:hover {
+    color: rgba(15, 188, 165,1)!important;
+}
+#totop {
+     color: rgba(15, 188, 165,1)!important;
+}
+#menu:hover{
+    text-decoration: none !important;
+}
