@@ -2,25 +2,26 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-   <title>TSL Training</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TSL Training</title>
 
-  <!-- Latest compiled and minified CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha256-sHwgyDk4CGNYom267UJX364ewnY4Bh55d53pxP5WDug= sha512-mkkeSf+MM3dyMWg3k9hcAttl7IVHe2BA1o/5xKLl4kBaP0bih7Mzz/DBy4y6cNZCHtE2tPgYBYH/KtEjOQYKxA==" crossorigin="anonymous">
-<!--  Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha256-sHwgyDk4CGNYom267UJX364ewnY4Bh55d53pxP5WDug= sha512-mkkeSf+MM3dyMWg3k9hcAttl7IVHe2BA1o/5xKLl4kBaP0bih7Mzz/DBy4y6cNZCHtE2tPgYBYH/KtEjOQYKxA==" crossorigin="anonymous">
+    <!--  Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
 </head>
 <body>
@@ -33,19 +34,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <!--<a class="navbar-brand" href="#"><img style="max-height:100%"src="img/tsl.png"></a>-->
       <a class="navbar-brand" href="#">TSLtraining</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="courses.html">Upcoming Courses</a></li>
-        <li><a href="#badges">Badges</a></li>
-        <li><a href="#hpc">Cluster</a></li>
-        <li><a href="#galaxy">Galaxy</a></li>
-        <li><a href="#tools">Tools</a></li> <!-- list of tools -->
-        <li><a href="#methods">Methods</a></li> <!-- SNP, RNAseq, Assembly, CandiSNP etc -->
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="badges.html">Badges</a></li>
+        <li><a href="slurm.html">Cluster</a></li>
+        <li><a href="galaxy.html">Galaxy</a></li>
+        <li><a href="tools.html">Tools</a></li> <!-- list of tools -->
+        <li><a href="methods.html">Methods</a></li> <!-- SNP, RNAseq, Assembly, CandiSNP etc -->
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -88,7 +90,7 @@
          <div class="carousel-caption">
            <h1>SNP Calling</h1>
            <p>Look at our SNP and variant calling training</p>
-           <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+           <p><a class="btn btn-lg btn-primary" href="galaxy.html#SNP" role="button">Learn More</a></p>
          </div>
        </div>
      </div>
@@ -98,7 +100,7 @@
          <div class="carousel-caption">
            <h1 style="color:white;">Go On A Training Course</h1>
            <p style="color:white;">Look at dates for our upcoming training and see previous training materials, includes our Software Carpentry based courses.</p>
-           <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+           <p><a class="btn btn-lg btn-primary" href="courses.html" role="button">Sign up today</a></p>
          </div>
        </div>
      </div>
@@ -108,7 +110,7 @@
          <div class="carousel-caption">
            <h1>Galaxy</h1>
            <p>See our Galaxy related training courses.</p>
-           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+           <p><a class="btn btn-lg btn-primary" href="galaxy.html" role="button">Browse gallery</a></p>
          </div>
        </div>
      </div>
@@ -118,7 +120,7 @@
          <div class="carousel-caption">
            <h1>Badges</h1>
            <p>Register an achievement through our OpenBadge system</p>
-           <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+           <p><a class="btn btn-lg btn-primary" href="badges.html" role="button">Browse gallery</a></p>
          </div>
        </div>
      </div>
@@ -138,28 +140,122 @@
 <div class="container">
   <!-- Example row of columns -->
   <div class="row">
-    <div class="col-md-4">
-      <h2></h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-md-7">
+        <!--<h2>Get in touch</h2>-->
+        <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        <div class="container">
+    <div class="row">
+        <div class="col-md-6 well">
+            <form action="http://formspree.io/bioinformatics@tsl.ac.uk" role="form" class="form-horizontal" method="post" name="contactform">
+            <fieldset>
+                <legend>Get in touch</legend>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="txt_name" class="control-label">Name</label>
+                    </div>
+                    <div class="col-md-10">
+                        <input class="form-control" name="name"
+                        placeholder="Your Full Name" type="text" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="txt_email" class="control-label">Email</label>
+                    </div>
+                    <div class="col-md-10">
+                        <input class="form-control" name="_replyto"
+                        placeholder="Your Email" type="text"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="txt_subject" class="control-label">Subject</label>
+                    </div>
+                    <div class="col-md-10">
+                        <input class="form-control" name="_subject"
+                        placeholder="Subject" type="text" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="txt_msg" class="control-label">Message</label>
+                    </div>
+                    <div class="col-md-10">
+                        <textarea class="form-control" name="txt_msg" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="exampleInputFile">File input</label>
+                    </div>
+                    <div class="col-md-10">
+                        <input type="file" id="InputFile">
+                        <p class="help-block">attach useful screenshot or example file here</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-7">
+                        <input name="submit" type="submit" class="btn btn-success" value="Send form" />
+                    </div>
+                </div>
+            </fieldset>
+            <input type="hidden" name="_next" value="thanks.html" />
+            </form>
+        </div>
     </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-   </div>
-    <div class="col-md-4">
+</div>
+
+     </div>
+    <div class="col-md-5 .hidden-xs">
+      <!--<h2>Find stuff by tag</h2>-->
+      <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+      <h1></h1>
+      <div style="10px;">
+          <script src="http://cdn.tagul.com/embed/685jpzrnjtyl"></script>
+            <!-- Please don't remove attribution to Tagul.com -->
+            <div style="display: table; margin: 0 auto;"><a href="http://tagul.com/"><p style="font-size:3px">Created with Tagul.com</p></a></div>
+        </div>
+        <!--<h1></h1>
+        <p style="text-align:center"><a class="twitter-follow-button"
+              href="https://twitter.com/TwitterDev"
+              data-size="large">
+            Follow @TwitterDev</a></p>-->
+    </div>
+
+    <!--<div class="col-md-4">
       <h2>Heading</h2>
       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
+  </div>-->
   </div>
 
   <hr>
 
   <footer>
+      <div class="footer_nav">
+      <ul>
+          <li><a href="index.html" id="menu">Home</a></li>
+          <li><a href="courses.html"id="menu">Upcoming Courses</a></li>
+          <li><a href="badges.html"id="menu">Badges</a></li>
+          <li><a href="slurm.html"id="menu">Cluster</a></li>
+          <li><a href="galaxy.html"id="menu">Galaxy</a></li>
+          <li><a href="tools.html"id="menu">Tools</a></li>
+          <li><a href="methods.html"id="menu">Methods</a></li>
+          <li><a href="contact.html"id="menu">Contact</a></li>
+          <li><a href="about.html"id="menu">About</a></li>
+          <li class="pull-right"><a href="#" id="totop"><strong>Back to top</strong></a></li>
+        </ul>
+        </div>
+    <p></p>
     <p>&copy; Team MacLean 2015</p>
-    <p class="pull-right"><a href="#">Back to top</a></p>
+
   </footer>
 </div> <!-- /container -->
 
@@ -168,6 +264,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
        <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
 
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
 </body>
 </html>
