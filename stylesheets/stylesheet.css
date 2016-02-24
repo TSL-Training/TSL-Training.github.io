@@ -44,3 +44,8 @@ text-align: right;
     width: 90px;
     text-align: right;
 }
+
+.icons img{
+    margin-right: 1em !important;
+    margin-bottom: 1em;
+}
